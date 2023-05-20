@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import {bg1, icon3} from "./images";
-function Contact() {
+function ContactPage() {
     return (
         <main className="main-aboutpage">
             {/* Header */}
@@ -95,4 +95,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default ContactPage;
