@@ -14,7 +14,7 @@ function Home (){
                     <div className="row">
                         <div className="col-md-6" data-aos="zoom-in">
                             <div className="about-me-box shadow-box">
-                                <a className="overlay-link" href="./about.html" />
+                                <a className="overlay-link" href="/about" />
                                 <img src={bg1} alt="BG" className="bg-img" />
                                 <div className="img-box">
                                     <img src={me} alt="About Me" />
@@ -52,7 +52,7 @@ function Home (){
                                 <div className="gx-row d-flex gap-24">
                                     <div data-aos="zoom-in">
                                         <div className="about-crenditials-box info-box shadow-box h-full">
-                                            <a className="overlay-link" href="./credentials.html" />
+                                            <a className="overlay-link" href="/credentials" />
                                             <img src={bg1} alt="BG" className="bg-img" />
                                             <img src={sign} alt="Sign" />
                                             <div className="d-flex align-items-center justify-content-between">
@@ -60,7 +60,7 @@ function Home (){
                                                     <h4>more about me</h4>
                                                     <h1>Credentials</h1>
                                                 </div>
-                                                <a href="./credentials.html" className="about-btn">
+                                                <a href="/credentials" className="about-btn">
                                                     <img src={icon} alt="Button" />
                                                 </a>
                                             </div>
@@ -68,7 +68,7 @@ function Home (){
                                     </div>
                                     <div data-aos="zoom-in">
                                         <div className="about-project-box info-box shadow-box h-full">
-                                            <a className="overlay-link" href="./works.html" />
+                                            <a className="overlay-link" href="/works" />
                                             <img src={bg1} alt="BG" className="bg-img" />
                                             <img src={projects} alt="My Works" />
                                             <div className="d-flex align-items-center justify-content-between">
@@ -91,7 +91,7 @@ function Home (){
                             <div className="blog-service-profile-wrap d-flex gap-24">
                                 <div data-aos="zoom-in">
                                     <div className="about-blog-box info-box shadow-box h-full">
-                                        <a href="./blog.html" className="overlay-link" />
+                                        <a href="/blog" className="overlay-link" />
                                         <img src={bg1} alt="BG" className="bg-img" />
                                         <img src={blog} alt="blog" />
                                         <div className="d-flex align-items-center justify-content-between">
@@ -99,7 +99,7 @@ function Home (){
                                                 <h4>Blog</h4>
                                                 <h1>Recent stories</h1>
                                             </div>
-                                            <a href="./blog.html" className="about-btn">
+                                            <a href="/blog" className="about-btn">
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>
@@ -107,7 +107,7 @@ function Home (){
                                 </div>
                                 <div data-aos="zoom-in" className="flex-1">
                                     <div className="about-services-box info-box shadow-box h-full">
-                                        <a href="./service.html" className="overlay-link" />
+                                        <a href="/service" className="overlay-link" />
                                         <img src={bg1} alt="BG" className="bg-img" />
                                         <div className="icon-boxes">
                                             <i className="iconoir-design-pencil" />
@@ -120,7 +120,7 @@ function Home (){
                                                 <h4>specialization</h4>
                                                 <h1>Services Offering</h1>
                                             </div>
-                                            <a href="./service.html" className="about-btn">
+                                            <a href="/service" className="about-btn">
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>
@@ -142,7 +142,7 @@ function Home (){
                                                 <h4>Connect with me</h4>
                                                 <h1>Profiles</h1>
                                             </div>
-                                            <a href="./contact.html" className="about-btn">
+                                            <a href="/contact" className="about-btn">
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>
@@ -173,11 +173,11 @@ function Home (){
                         </div>
                         <div className="col-md-6" data-aos="zoom-in">
                             <div className="about-contact-box info-box shadow-box">
-                                <a className="overlay-link" href="./contact.html" />
+                                <a className="overlay-link" href="/contact" />
                                 <img src={bg1} alt="BG" className="bg-img" />
                                 <img src={icon2} alt="Icon" className="star-icon" />
                                 <h1>Let's <br />work <span>together.</span></h1>
-                                <a href="./index.html" className="logo" style={{color: 'white'}}>
+                                <a href="/" className="logo" style={{color: 'white'}}>
                                     <h2>James</h2>
                                 </a>
                             </div>
