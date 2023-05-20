@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import ErrorBoundary from "./pages/ErrorBoundary";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 function App() {
 
@@ -15,13 +16,20 @@ function App() {
             element: (
                 <Home/>
             ),
-            errorElement: <ErrorBoundary />,
         },
         {
             path: "about",
             element: <About/>,
-            errorElement: <ErrorBoundary />,
         },
+        {
+            path: "contact",
+            element: <Contact/>,
+        },
+        {
+            path: "*",
+            element: <ErrorBoundary />,
+
+        }
     ]);
   return <RouterProvider router={router} />;
 }
