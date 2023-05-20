@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import ErrorBoundary from "./pages/ErrorBoundary";
 import About from "./pages/About";
+
 import Contact from "./pages/Contact";
 
 function App() {
