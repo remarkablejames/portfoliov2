@@ -1,6 +1,6 @@
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import {bg1, icon2, icon3, project3, project4, project5, project6, projectBanner1, star2} from "../images";
+import {bg1, icon2, icon3, project2, project3, project4, project5, project6, projectBanner1, star2} from "../images";
 
 function Project1() {
   return (
@@ -23,7 +23,7 @@ function Project1() {
           {/* Project Details */}
           <section className="project-details-wrap">
               <div className="project-details-img" data-aos="zoom-in">
-                  <img src={projectBanner1} alt="Project Details" />
+                  <img src="https://images.unsplash.com/photo-1488509082528-cefbba5ad692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Project Details" />
               </div>
               <div className="container">
                   <div data-aos="zoom-in">
@@ -69,24 +69,24 @@ function Project1() {
                   <div className="row mb-24">
                       <div className="col-md-6" data-aos="zoom-in">
                           <div className="project-details-3-img">
-                              <img src={project3} alt="Project" />
+                              <img src="https://github.com/remarkablejames/portfoliov2/blob/master/src/assets/images/messenger-1.png?raw=true" alt="Project" />
                           </div>
                       </div>
                       <div className="col-md-6" data-aos="zoom-in">
                           <div className="project-details-3-img">
-                              <img src={project4} alt="Project" />
+                              <img src="https://github.com/remarkablejames/portfoliov2/blob/master/src/assets/images/messenger-2.png?raw=true" alt="Project" />
                           </div>
                       </div>
                   </div>
                   <div className="row mb-24">
                       <div className="col-md-6" data-aos="zoom-in">
                           <div className="project-details-3-img">
-                              <img src={project5} alt="Project" />
+                              <img src="https://github.com/remarkablejames/portfoliov2/blob/master/src/assets/images/messenger-3.png?raw=true" alt="Project" />
                           </div>
                       </div>
                       <div className="col-md-6" data-aos="zoom-in">
                           <div className="project-details-3-img">
-                              <img src={project6} alt="Project" />
+                              <img src={project3} alt="Project" />
                           </div>
                       </div>
                   </div>
@@ -138,10 +138,10 @@ function Project1() {
                   </div>
               </div>
               <div className="project-details-img" data-aos="zoom-in">
-                  <img src={projectBanner1} alt="Project Details" />
+                  <img src="https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Project Details" />
               </div>
               <div className="container d-flex align-items-center justify-content-center" data-aos="zoom-in">
-                  <a href="#" className="big-btn shadow-box"> Live preview </a>
+                  <a href="https://next13-messenger-seven.vercel.app/" className="big-btn shadow-box"> Live preview </a>
               </div>
           </section>
           {/* Footer */}
