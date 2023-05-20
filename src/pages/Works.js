@@ -18,7 +18,7 @@ function Works (){
                         <div className="col-md-4">
                             <div data-aos="zoom-in">
                                 <div className="project-item shadow-box">
-                                    <a className="overlay-link" href="./work-details.html" />
+                                    <a className="overlay-link" href="/project1" />
                                     <img src={bg1} alt="BG" className="bg-img" />
                                     <div className="project-img">
                                         <img src={project1} alt="Project" />
@@ -28,7 +28,7 @@ function Works (){
                                             <p>WEB DESIGNING</p>
                                             <h1>Netflix</h1>
                                         </div>
-                                        <a href="work-details.html" className="project-btn">
+                                        <a href="/project1" className="project-btn">
                                             <img src={icon} alt="Button" />
                                         </a>
                                     </div>
@@ -36,7 +36,7 @@ function Works (){
                             </div>
                             <div data-aos="zoom-in">
                                 <div className="project-item shadow-box">
-                                    <a className="overlay-link" href="./work-details.html" />
+                                    <a className="overlay-link" href="/project1" />
                                     <img src={bg1} alt="BG" className="bg-img" />
                                     <div className="project-img">
                                         <img src={project2} alt="Project" />
@@ -46,7 +46,7 @@ function Works (){
                                             <p>PHOTOGRAPHY</p>
                                             <h1>Natours</h1>
                                         </div>
-                                        <a href="work-details.html" className="project-btn">
+                                        <a href="/project1" className="project-btn">
                                             <img src={icon} alt="Button" />
                                         </a>
                                     </div>
@@ -61,7 +61,7 @@ function Works (){
                             <div className="d-flex align-items-start gap-24">
                                 <div data-aos="zoom-in" className="flex-1">
                                     <div className="project-item shadow-box">
-                                        <a className="overlay-link" href="./work-details.html" />
+                                        <a className="overlay-link" href="/project1" />
                                         <img src={bg1} alt="BG" className="bg-img" />
                                         <div className="project-img">
                                             <img src={project3} alt="Project3" />
@@ -71,7 +71,7 @@ function Works (){
                                                 <p>mOBILE DESIGNING</p>
                                                 <h1>Messenger</h1>
                                             </div>
-                                            <a href="work-details.html" className="project-btn">
+                                            <a href="/project1" className="project-btn">
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>
@@ -79,7 +79,7 @@ function Works (){
                                 </div>
                                 <div data-aos="zoom-in" className="flex-1">
                                     <div className="project-item shadow-box">
-                                        <a className="overlay-link" href="./work-details.html" />
+                                        <a className="overlay-link" href="/project1" />
                                         <img src={bg1} alt="BG" className="bg-img" />
                                         <div className="project-img">
                                             <img src={project4} alt="Project" />
@@ -89,7 +89,7 @@ function Works (){
                                                 <p>Branding</p>
                                                 <h1>Reactive Notes</h1>
                                             </div>
-                                            <a href="work-details.html" className="project-btn">
+                                            <a href="/project1" className="project-btn">
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>
@@ -109,7 +109,7 @@ function Works (){
                                                 <p>mOBILE DESIGNING</p>
                                                 <h1>Librawave</h1>
                                             </div>
-                                            <a href="work-details.html" className="project-btn">
+                                            <a href="/project1" className="project-btn">
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>
@@ -117,7 +117,7 @@ function Works (){
                                 </div>
                                 <div data-aos="zoom-in" className="flex-1">
                                     <div className="project-item shadow-box">
-                                        <a className="overlay-link" href="./work-details.html" />
+                                        <a className="overlay-link" href="/project1" />
                                         <img src={bg1} alt="BG" className="bg-img" />
                                         <div className="project-img">
                                             <img src={project6} alt="Project" />
@@ -127,7 +127,7 @@ function Works (){
                                                 <p>wEB DESIGNING</p>
                                                 <h1>Vidstream</h1>
                                             </div>
-                                            <a href="work-details.html" className="project-btn">
+                                            <a href="/project1" className="project-btn">
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>

@@ -20,6 +20,7 @@ import project3 from '../assets/images/project3.jpg';
 import project4 from '../assets/images/project4.jpg';
 import project5 from '../assets/images/project5.jpg';
 import project6 from '../assets/images/project6.jpg';
+import projectBanner1 from '../assets/images/project-dt-1.jpeg';
 export  {
-    bg1,me,icon,star1,sign,projects,blog,icon2,icon3,me2,star2,project1,project2,project3,project4,project5,project6,blog1,blog2,blog3
+    bg1,me,icon,star1,sign,projects,blog,icon2,icon3,me2,star2,project1,project2,project3,project4,project5,project6,blog1,blog2,blog3,projectBanner1
 }

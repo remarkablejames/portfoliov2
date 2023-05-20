@@ -45,26 +45,7 @@ function Blog () {
                                       <a href="blog-details.html" className="theme-btn">Read More</a>
                                   </div>
                               </div>
-                              <div className="blog-item" data-aos="zoom-in">
-                                  <div className="img-box">
-                                      <img src={blog2} alt="Blog" />
-                                  </div>
-                                  <div className="content">
-                                      <span className="meta">25 March 2022 - Comments (4) - Share (7)</span>
-                                      <h1>
-                                          <a href="blog-details.html">Unsatiable entreaties may collecting Power.</a>
-                                      </h1>
-                                      <p>
-                                          Sit amet luctussd fav venenatis, lectus magna fringilla
-                                          inis urna, porttitor rhoncus dolor purus non enim praesent
-                                          in elementum sahas facilisis leo, vel fringilla est
-                                          ullamcorper eget nulla facilisi etisam dignissim diam quis
-                                          enim lobortis viverra orci sagittis eu volutpat odio
-                                          facilisis mauris sit.
-                                      </p>
-                                      <a href="blog-details.html" className="theme-btn">Read More</a>
-                                  </div>
-                              </div>
+
                               <div className="blog-item" data-aos="zoom-in">
                                   <div className="img-box">
                                       <img src={blog1} alt="Blog" />
@@ -72,7 +53,7 @@ function Blog () {
                                   <div className="content">
                                       <span className="meta">25 March 2022 - Comments (4) - Share (7)</span>
                                       <h1>
-                                          <a href="blog-details.html">Discovery incommode earnestly he commanded</a>
+                                          <a href="blog-details.html">The Case For C# vs NodeJS</a>
                                       </h1>
                                       <p>
                                           Sit amet luctussd fav venenatis, lectus magna fringilla

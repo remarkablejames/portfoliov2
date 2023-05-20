@@ -9,6 +9,7 @@ import Contact from "./pages/ContactPage";
 import Works from "./pages/Works";
 import Credentials from "./pages/Credentials";
 import Blog from "./pages/Blog";
+import Project1 from "./pages/projects/Project1";
 
 function App() {
 
@@ -39,6 +40,9 @@ function App() {
         {
             path: "blog",
             element: <Blog/>,
+        },{
+            path: "project1",
+            element: <Project1/>,
         },
 
         {

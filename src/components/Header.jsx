@@ -4,7 +4,7 @@ function Header() {
       <header className="header-area">
           <div className="container">
               <div className="gx-row d-flex align-items-center justify-content-between">
-                  <a href="./index.html" className="logo" style={{color: 'white'}}>
+                  <a href="/" className="logo" style={{color: 'white'}}>
                       <h2>James</h2>
                   </a>
                   <nav className="navbar">
