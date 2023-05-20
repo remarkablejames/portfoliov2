@@ -6,7 +6,7 @@ function About ({reload}){
     return(
         <main className="main-aboutpage">
             {/* Header */}
-            <Header reload={reload}/>
+            <Header/>
             {/* About */}
             <section className="about-area">
                 <div className="container">
