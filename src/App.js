@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Contact from "./pages/ContactPage";
 import Works from "./pages/Works";
 import Credentials from "./pages/Credentials";
+import Blog from "./pages/Blog";
 
 function App() {
 
@@ -34,6 +35,10 @@ function App() {
         {
             path: "credentials",
             element: <Credentials/>,
+        },
+        {
+            path: "blog",
+            element: <Blog/>,
         },
 
         {
