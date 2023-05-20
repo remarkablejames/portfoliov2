@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import {bg1, me2, star2} from "./images";
+import {bg1, icon, icon2, me2, sign, star2} from "./images";
 function About ({reload}){
     return(
         <main className="main-aboutpage">
@@ -25,7 +25,7 @@ function About ({reload}){
                                 <img src={star2} alt="Star" />
                             </h1>
                             <div className="about-details-inner shadow-box">
-                                <img src="./assets/images/icon2.png" alt="Star" />
+                                <img src={icon2} alt="Star" />
                                 <h1>James Niyongira</h1>
                                 <p>
                                     I am a sophomore majoring in web development and internet
@@ -39,7 +39,7 @@ function About ({reload}){
                     <div className="row mt-24">
                         <div className="col-md-6" data-aos="zoom-in">
                             <div className="about-edc-exp about-experience shadow-box">
-                                <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
+                                <img src={bg1} alt="BG" className="bg-img" />
                                 <h3>EXPERIENCE</h3>
                                 <ul>
                                     <li>
@@ -52,7 +52,7 @@ function About ({reload}){
                         </div>
                         <div className="col-md-6" data-aos="zoom-in">
                             <div className="about-edc-exp about-education shadow-box">
-                                <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
+                                <img src={bg1} alt="BG" className="bg-img" />
                                 <h3>EDUCATION</h3>
                                 <ul>
                                     <li>
@@ -69,7 +69,7 @@ function About ({reload}){
                             <div className="d-flex profile-contact-credentials-wrap gap-24">
                                 <div data-aos="zoom-in">
                                     <div className="about-profile-box info-box shadow-box h-full">
-                                        <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
+                                        <img src={bg1} alt="BG" className="bg-img" />
                                         <div className="inner-profile-icons shadow-box">
                                             <a href="#">
                                                 <i className="iconoir-github" />
@@ -84,7 +84,7 @@ function About ({reload}){
                                                 <h1>Profiles</h1>
                                             </div>
                                             <a href="./contact.html" className="about-btn">
-                                                <img src="./assets/images/icon.svg" alt="Button" />
+                                                <img src={icon} alt="Button" />
                                             </a>
                                         </div>
                                     </div>
@@ -92,26 +92,26 @@ function About ({reload}){
                                 <div data-aos="zoom-in" className="flex-1">
                                     <div className="about-contact-box info-box shadow-box">
                                         <a className="overlay-link" href="./contact.html" />
-                                        <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
-                                        <img src="./assets/images/icon2.png" alt="Icon" className="star-icon" />
+                                        <img src={bg1} alt="BG" className="bg-img" />
+                                        <img src={icon2} alt="Icon" className="star-icon" />
                                         <h1>Let's <br />work <span>together.</span></h1>
                                         <a href="./contact.html" className="about-btn">
-                                            <img src="./assets/images/icon.svg" alt="Button" />
+                                            <img src={icon} alt="Button" />
                                         </a>
                                     </div>
                                 </div>
                                 <div data-aos="zoom-in" className="h-full">
                                     <div className="about-crenditials-box info-box shadow-box">
                                         <a className="overlay-link" href="./credentials.html" />
-                                        <img src="./assets/images/bg1.png" alt="BG" className="bg-img" />
-                                        <img src="./assets/images/sign.svg" alt="Sign" />
+                                        <img src={bg1} alt="BG" className="bg-img" />
+                                        <img src={sign} alt="Sign" />
                                         <div className="d-flex align-items-center justify-content-between">
                                             <div className="infos">
                                                 <h4>more about me</h4>
                                                 <h1>Credentials</h1>
                                             </div>
                                             <a href="./credentials.html" className="about-btn">
-                                                <img src="./assets/images/icon.svg" alt="Button" />
+                                                <img src={icon} alt="Button" />
                                             </a>
                                         </div>
                                     </div>

@@ -23,7 +23,7 @@ function Home ({reload}){
                                     <img src={me} alt="About Me" />
                                 </div>
                                 <div className="infos">
-                                    <h4>REMARKABLE</h4>
+                                    <p>MEET REMARKABLE</p>
                                     <h1>James Niyongira.</h1>
                                     <p>I am a full stack developer based in Ottawa.</p>
                                     <a href="#" className="about-btn">
@@ -38,15 +38,15 @@ function Home ({reload}){
                                     <div className="banner shadow-box">
                                         <div className="marquee">
                                             <div>
-                    <span>LATEST WORK AND <b>FEATURED</b>
+                    <span>REMARKABLE <b>GRIT</b>
                       <img src={star1} alt="Star" />
-                      LATEST WORK AND <b>FEATURED</b>
+                      REMARKABLY <b>FAST</b>
                       <img src={star1} alt="Star" />
-                      LATEST WORK AND <b>FEATURED</b>
+                      REMARKABLE <b>PASSION</b>
                       <img src={star1} alt="Star" />
-                      LATEST WORK AND <b>FEATURED</b> LATEST WORK AND
+                      REMARKABLY <b>FIT</b> AND CHEERFUL
                       <img src={star1} alt="Star" />
-                      LATEST WORK AND <b>FEATURED</b> LATEST WORK AND
+                      REMARKABLY <b>CONSISTENT</b> AND HONEST
                       <img src={star1} alt="Star" /></span>
                                             </div>
                                         </div>
