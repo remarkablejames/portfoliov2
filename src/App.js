@@ -3,8 +3,7 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import { useEffect } from "react";
-import AOS from "aos";
+import ErrorBoundary from "./pages/ErrorBoundary";
 import About from "./pages/About";
 
 function refreshPage() {
@@ -21,10 +20,12 @@ function App() {
             element: (
                 <Home reload={refreshPage}/>
             ),
+            errorElement: <ErrorBoundary />,
         },
         {
             path: "about",
             element: <About reload={refreshPage}/>,
+            errorElement: <ErrorBoundary />,
         },
     ]);
   return <RouterProvider router={router} />;
