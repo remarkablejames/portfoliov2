@@ -8,7 +8,9 @@ import AOS from "aos";
 import About from "./pages/About";
 
 function refreshPage() {
-
+    setTimeout(()=>{
+        window.location.reload();
+    }, 10);
     console.log('page to reload')
 }
 function App() {
