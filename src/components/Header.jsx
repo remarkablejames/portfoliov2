@@ -14,9 +14,9 @@ function Header() {
                           <li><a href="/works" >Works</a></li>
                           <li><a href="/contact" >Contact</a></li>
                       </ul>
-                      <a href="./contact.html" className="theme-btn">Let's talk</a>
+                      <a href="/contact" className="theme-btn">Let's talk</a>
                   </nav>
-                  <a href="./contact.html" className="theme-btn">Let's talk</a>
+                  <a href="/contact" className="theme-btn">Let's talk</a>
                   <div className="show-menu">
                       <span />
                       <span />
