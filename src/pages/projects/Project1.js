@@ -64,7 +64,7 @@ function Project1() {
                       </div>
                   </div>
                   <div className="project-details-2-img mb-24" data-aos="zoom-in">
-                      <img src="https://github.com/remarkablejames/portfoliov2/blob/master/src/assets/images/project-dt-1.jpeg?raw=true" alt="Project" />
+                      <img src="https://github.com/remarkablejames/portfoliov2/blob/master/src/assets/images/messenger.png?raw=true" alt="Project" />
                   </div>
                   <div className="row mb-24">
                       <div className="col-md-6" data-aos="zoom-in">
