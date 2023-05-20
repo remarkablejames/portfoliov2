@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-function Header({reload}) {
+function Header() {
   return (
       <header className="header-area">
           <div className="container">
@@ -9,10 +9,10 @@ function Header({reload}) {
                   </a>
                   <nav className="navbar">
                       <ul className="menu">
-                          <li className="active"><Link to="/" onClick={reload}>Home</Link></li>
-                          <li><Link to="/about" onClick={reload}>About</Link></li>
-                          <li><Link to="/works" onClick={reload}>Works</Link></li>
-                          <li><Link to="/contact" onClick={reload}>Contact</Link></li>
+                          <li className="active"><a href="/" >Home</a></li>
+                          <li><a href="/about" >About</a></li>
+                          <li><a href="/works" >Works</a></li>
+                          <li><a href="/contact" >Contact</a></li>
                       </ul>
                       <a href="./contact.html" className="theme-btn">Let's talk</a>
                   </nav>

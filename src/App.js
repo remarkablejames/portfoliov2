@@ -6,25 +6,20 @@ import {
 import ErrorBoundary from "./pages/ErrorBoundary";
 import About from "./pages/About";
 
-function refreshPage() {
-    setTimeout(()=>{
-        window.location.reload();
-    }, 5);
-    console.log('page to reload')
-}
 function App() {
+
 
     const router = createBrowserRouter([
         {
             path: "/",
             element: (
-                <Home reload={refreshPage}/>
+                <Home/>
             ),
             errorElement: <ErrorBoundary />,
         },
         {
             path: "about",
-            element: <About reload={refreshPage}/>,
+            element: <About/>,
             errorElement: <ErrorBoundary />,
         },
     ]);

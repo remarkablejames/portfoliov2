@@ -1,4 +1,4 @@
-import {Link} from "react-router-dom";
+
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import {bg1, icon, icon2, me2, sign, star2} from "./images";
@@ -95,14 +95,14 @@ function About ({reload}){
                                         <img src={bg1} alt="BG" className="bg-img" />
                                         <img src={icon2} alt="Icon" className="star-icon" />
                                         <h1>Let's <br />work <span>together.</span></h1>
-                                        <a href="./contact.html" className="about-btn">
+                                        <a href="/contact" className="about-btn" >
                                             <img src={icon} alt="Button" />
                                         </a>
                                     </div>
                                 </div>
                                 <div data-aos="zoom-in" className="h-full">
                                     <div className="about-crenditials-box info-box shadow-box">
-                                        <a className="overlay-link" href="./credentials.html" />
+                                        <a className="overlay-link" href="/credentials" />
                                         <img src={bg1} alt="BG" className="bg-img" />
                                         <img src={sign} alt="Sign" />
                                         <div className="d-flex align-items-center justify-content-between">
@@ -110,7 +110,7 @@ function About ({reload}){
                                                 <h4>more about me</h4>
                                                 <h1>Credentials</h1>
                                             </div>
-                                            <a href="./credentials.html" className="about-btn">
+                                            <a href="/credentials" className="about-btn" >
                                                 <img src={icon} alt="Button" />
                                             </a>
                                         </div>
