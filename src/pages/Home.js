@@ -2,16 +2,15 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import {bg1,me,icon,sign,star1,projects,blog,icon2} from "./images";
 import {useEffect} from "react";
-import AOS from "aos";
 
-function Home (){
+function Home ({reload}){
     useEffect(() => {
         // AOS.refreshHard()
     }, []);
     return(
         <main className="main-homepage">
             {/* Header */}
-            <Header />
+            <Header reload={reload} />
             {/* About */}
             <section className="about-area">
                 <div className="container">

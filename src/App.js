@@ -10,7 +10,7 @@ import About from "./pages/About";
 function refreshPage() {
     setTimeout(()=>{
         window.location.reload();
-    }, 10);
+    }, 5);
     console.log('page to reload')
 }
 function App() {
@@ -19,7 +19,7 @@ function App() {
         {
             path: "/",
             element: (
-                <Home />
+                <Home reload={refreshPage}/>
             ),
         },
         {
